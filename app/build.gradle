@@ -49,7 +49,7 @@ sqldelight {
         // of the project. These files are used to verify that migrations yield
         // a database with the latest schema. Defaults to null so the verification
         // tasks will not be created.
-        schemaOutputDirectory = file("src/main/db/databases")
+        schemaOutputDirectory = file("src/main/db")
 
         // If set to true, migration files will fail during compilation if there are errors in them.
         // Defaults to false
