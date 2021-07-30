@@ -1,0 +1,4 @@
+CREATE TABLE player (
+    name TEXT NOT NULL PRIMARY KEY,
+    age INTEGER NOT NULL
+);

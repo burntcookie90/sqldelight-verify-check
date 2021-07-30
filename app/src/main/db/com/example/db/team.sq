@@ -1,0 +1,4 @@
+CREATE TABLE team(
+    name TEXT NOT NULL PRIMARY KEY,
+    member_count INTEGER NOT NULL
+);
